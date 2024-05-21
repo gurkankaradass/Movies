@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(84, 27, 137);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#inputSearch{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+}
+
+#inputSearch::placeholder{
+    color: rgb(179, 176, 176);
+    font-size: 12px;
+    text-align: center;
+}
+
+#searchButton{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    color: lightgray;
+}
+
+.movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.movie{
+   margin: 10px;
+   width: 260px;
+   height: 370px; 
+   background-color: rgb(42, 12, 69);
+}
+
+.moviePicture{
+    width: 260px;
+    height: 320px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.movieName{
+    font-size: 13px;
+    color: lightgray;
+}
+
+.imdbPoint{
+    font-size: 15px;
+    color: black;
+    background-color: red;
+    padding: 3px;
+}
