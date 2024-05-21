@@ -72,6 +72,17 @@ body{
 .imdbPoint{
     font-size: 15px;
     color: black;
-    background-color: red;
     padding: 3px;
+}
+
+.green{
+    background-color: rgb(0, 181, 0);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
 }
